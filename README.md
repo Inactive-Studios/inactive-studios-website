@@ -1,10 +1,13 @@
-# Inactive Studios Website
+# Inactive Studios LLC Website — v4
 
-Official website for Inactive Studios LLC.
+Publisher-ready static website for Inactive Studios LLC.
 
-## v3 corrective showcase
-- Restores a clean, contained studio-site flow.
-- Uses Contact Imminent operational-area artwork as a restrained rotating hero background.
-- Adds real gameplay captures as bounded showcase media rather than floating/overlaid UI.
-- Expands the Contact Imminent project page with a responsive screenshot gallery.
-- Retains GitHub Pages custom-domain configuration for inactivestudios.com.
+## v4 focus
+- Preserves Inactive Studios LLC as the primary studio identity.
+- Adds studio and product-specific privacy/support routes.
+- Adds canonical/social metadata and accessibility improvements.
+- Adds an internal `DATA-PRIVACY.md` release-control register.
+- Does not add analytics, cookies, trackers, forms, databases, or advertising to the website.
+- Store badges/listings remain absent until official storefront pages exist.
+
+Hosted as a static GitHub Pages site at `inactivestudios.com`.
