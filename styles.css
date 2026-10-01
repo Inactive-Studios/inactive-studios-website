@@ -65,3 +65,9 @@
 @media(max-width:760px){.hero-v3{min-height:720px}.hero-v3 .hero-inner{padding-top:175px;padding-bottom:112px}.signal-binary{font-size:7px;letter-spacing:1.35px}.signal-binary-a{top:130px;left:18px;right:18px;max-width:none;overflow:hidden;opacity:.58}.signal-tag-a{top:151px;left:18px;font-size:7px}.signal-binary-b{display:none}.signal-tag-b{display:none}.signal-status{left:18px;right:auto;bottom:31px;transform:none;font-size:7px;letter-spacing:1.2px}.hero-v3:before{left:18px;right:18px;bottom:57px}.clean-media{aspect-ratio:4/3}}
 @media(max-width:390px){.signal-binary-a{display:block;max-width:calc(100vw - 36px);white-space:nowrap}.signal-tag-a{display:block}.signal-status{max-width:calc(100vw - 36px);overflow:hidden}}
 @media(prefers-reduced-motion:reduce){.hero-v3 .hero-logo{animation:none}}
+
+/* v4.3 — focused homepage game presentation */
+.ci-feature .clean-media{aspect-ratio:16/7;min-height:clamp(360px,42vw,620px)}
+.ci-feature .clean-media>img{object-position:center 48%;filter:saturate(1.08) contrast(1.1) brightness(1.04)}
+.ci-feature .clean-media:after{background:linear-gradient(180deg,rgba(4,8,8,.02),rgba(4,8,8,.14)),linear-gradient(90deg,rgba(5,9,10,.12),transparent 32%,transparent 72%,rgba(5,9,10,.08))}
+@media(max-width:760px){.ci-feature .clean-media{aspect-ratio:4/3;min-height:330px}.ci-feature .clean-media>img{object-position:44% center}}

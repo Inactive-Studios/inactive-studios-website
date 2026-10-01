@@ -24,3 +24,10 @@ Adds a restrained Inactive Studios signal identity to the homepage hero: green/v
 - Makes the Inactive Studios green/violet signal language intentionally visible on desktop while keeping it restrained.
 - Uses a mobile-specific signal composition so binary/status details fit portrait screens without clipping.
 - Preserves the v4 publisher privacy/support infrastructure and v4.1 four-link mobile navigation.
+
+
+## v4.3
+- Simplified the Contact Imminent homepage feature to one high-contrast gameplay hero.
+- Removed the redundant three-image homepage preview strip.
+- Preserved the full Contact Imminent gallery on the dedicated Explore Project page.
+- Retained the v4.2 publisher layout, mobile navigation, privacy/support infrastructure, and studio signal identity.
