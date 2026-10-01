@@ -18,3 +18,9 @@ Mobile portrait navigation now preserves all four primary links, including Priva
 
 ### v4.1 visual pass
 Adds a restrained Inactive Studios signal identity to the homepage hero: green/violet binary fragments, a small system-status marker, subtle signal accents, and conservative hover treatment while preserving the clean v4 layout and corrected portrait-mobile navigation.
+
+## v4.2
+- Refines the homepage toward a cleaner publisher-style visual hierarchy with larger, more confident hero and game presentation.
+- Makes the Inactive Studios green/violet signal language intentionally visible on desktop while keeping it restrained.
+- Uses a mobile-specific signal composition so binary/status details fit portrait screens without clipping.
+- Preserves the v4 publisher privacy/support infrastructure and v4.1 four-link mobile navigation.
