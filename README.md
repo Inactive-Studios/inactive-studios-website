@@ -31,3 +31,9 @@ Adds a restrained Inactive Studios signal identity to the homepage hero: green/v
 - Removed the redundant three-image homepage preview strip.
 - Preserved the full Contact Imminent gallery on the dedicated Explore Project page.
 - Retained the v4.2 publisher layout, mobile navigation, privacy/support infrastructure, and studio signal identity.
+
+
+## v4.4
+- Rebuilt the Contact Imminent project-page opening so the game title is no longer overlaid on a title-screen image containing the same title.
+- Added a clean project introduction followed by one uninterrupted Global Picture feature image; the broader screenshot gallery remains farther down the project page.
+- Standardized the public copyright line to “© 2026 Inactive Studios LLC. All rights reserved.”

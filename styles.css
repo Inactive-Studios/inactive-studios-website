@@ -71,3 +71,13 @@
 .ci-feature .clean-media>img{object-position:center 48%;filter:saturate(1.08) contrast(1.1) brightness(1.04)}
 .ci-feature .clean-media:after{background:linear-gradient(180deg,rgba(4,8,8,.02),rgba(4,8,8,.14)),linear-gradient(90deg,rgba(5,9,10,.12),transparent 32%,transparent 72%,rgba(5,9,10,.08))}
 @media(max-width:760px){.ci-feature .clean-media{aspect-ratio:4/3;min-height:330px}.ci-feature .clean-media>img{object-position:44% center}}
+
+/* v4.4 — Contact Imminent project-page hierarchy */
+.project-intro{max-width:1500px;margin:auto;padding:clamp(72px,9vw,132px) clamp(22px,6vw,96px) clamp(42px,5vw,70px);display:flex;align-items:flex-end;justify-content:space-between;gap:40px;border-bottom:1px solid var(--line)}
+.project-intro h1{font-size:clamp(52px,8vw,112px);line-height:.86;letter-spacing:clamp(1px,.45vw,6px);margin:12px 0 22px;font-weight:300}
+.project-intro h1 strong{font-weight:800}
+.project-intro>div>p:last-child{font-size:clamp(17px,1.7vw,24px);color:#c3c9c2;margin:0}
+.project-status{flex:0 0 auto;font:600 11px/1.2 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1.6px;color:var(--green);border:1px solid rgba(132,190,97,.45);padding:11px 14px;margin-bottom:4px}
+.project-feature-media{max-width:1500px;margin:0 auto;padding:0 clamp(22px,6vw,96px);position:relative}
+.project-feature-media img{display:block;width:100%;height:auto;aspect-ratio:16/7;object-fit:cover;border:1px solid var(--line);border-top:0}
+@media(max-width:760px){.project-intro{padding-top:58px;align-items:flex-start;flex-direction:column;gap:24px}.project-intro h1{font-size:clamp(46px,15vw,72px)}.project-status{margin:0}.project-feature-media img{aspect-ratio:16/9}.project-feature-media{padding:0 18px}}
