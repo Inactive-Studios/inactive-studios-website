@@ -2,11 +2,15 @@
 
 Official website for **Inactive Studios LLC**.
 
-## Local preview
-Open `index.html` in a browser or serve the directory with any static HTTP server.
+## Current build
 
-## Deployment
-Designed for GitHub Pages with the custom domain `inactivestudios.com`.
+Studio showcase v2 featuring:
 
-## Brand assets
-The Inactive Studios SVG marks in `assets/brand/` are the studio's existing brand assets carried forward from Contact Imminent.
+- Inactive Studios brand system
+- Contact Imminent showcase using production game assets
+- Contact Imminent project page
+- Dead Grid showcase and project page
+- About, support, contact, and privacy pages
+- GitHub Pages custom-domain configuration for `inactivestudios.com`
+
+Hosted with GitHub Pages.
