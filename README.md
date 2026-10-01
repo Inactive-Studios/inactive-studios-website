@@ -11,3 +11,7 @@ Publisher-ready static website for Inactive Studios LLC.
 - Store badges/listings remain absent until official storefront pages exist.
 
 Hosted as a static GitHub Pages site at `inactivestudios.com`.
+
+
+## v4.1 polish
+Mobile portrait navigation now preserves all four primary links, including Privacy. The studio visual system also adds a restrained signal layer using subtle green/violet accents, sparse binary/system text, and an infrequent logo signal pulse with reduced-motion support.
