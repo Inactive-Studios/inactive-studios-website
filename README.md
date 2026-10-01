@@ -1,16 +1,10 @@
 # Inactive Studios Website
 
-Official website for **Inactive Studios LLC**.
+Official website for Inactive Studios LLC.
 
-## Current build
-
-Studio showcase v2 featuring:
-
-- Inactive Studios brand system
-- Contact Imminent showcase using production game assets
-- Contact Imminent project page
-- Dead Grid showcase and project page
-- About, support, contact, and privacy pages
-- GitHub Pages custom-domain configuration for `inactivestudios.com`
-
-Hosted with GitHub Pages.
+## v3 corrective showcase
+- Restores a clean, contained studio-site flow.
+- Uses Contact Imminent operational-area artwork as a restrained rotating hero background.
+- Adds real gameplay captures as bounded showcase media rather than floating/overlaid UI.
+- Expands the Contact Imminent project page with a responsive screenshot gallery.
+- Retains GitHub Pages custom-domain configuration for inactivestudios.com.
