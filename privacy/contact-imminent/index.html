@@ -38,7 +38,7 @@
 
 <section class="policy-section">
 <h2>About this policy</h2>
-<p>Contact Imminent is developed and published by Inactive Studios LLC, Utah, United States. This policy describes the data practices intended for the Google Play release of Contact Imminent and will be maintained to reflect the services and software included in the released application.</p>
+<p>Contact Imminent is developed and published by Inactive Studios LLC, Utah, United States. This policy describes the data practices of the Google Play release of Contact Imminent, including information handled by Inactive Studios and information processed through third-party services integrated into the application.</p>
 <p>Inactive Studios follows a data-minimization approach. We do not sell player personal information and do not intentionally collect information that is unnecessary to operate, support, secure, diagnose, or monetize the game.</p>
 </section>
 
@@ -50,28 +50,41 @@
 
 <section class="policy-section">
 <h2>Player accounts and cloud saves</h2>
-<p>Contact Imminent does not currently require or provide an Inactive Studios player account, and Inactive Studios does not currently operate a Contact Imminent cloud-save service. Accordingly, there is no Contact Imminent player-account database or studio-hosted cloud-save profile to delete.</p>
-<p>If account or cloud functionality is introduced in a future release, this policy and applicable storefront disclosures will be updated before or when that functionality is offered.</p>
+<p>Contact Imminent does not require or provide an Inactive Studios player account, and Inactive Studios does not operate a Contact Imminent cloud-save service. Accordingly, there is no Contact Imminent player-account database or studio-hosted cloud-save profile to delete.</p>
+<p>If account or cloud functionality is introduced in a future release, this policy and applicable storefront disclosures will be reviewed and updated to reflect that functionality.</p>
 </section>
 
 <section class="policy-section">
 <h2>Advertising</h2>
-<p>The planned Google Play release of Contact Imminent uses Google AdMob and the Google Mobile Ads SDK to provide advertising. Depending on device settings, consent choices, region, and advertising configuration, Google and its advertising partners may process information such as IP address, device and advertising identifiers, general device information, ad interactions, and diagnostic information for purposes including delivering, measuring, limiting, securing, and, where permitted, personalizing advertisements.</p>
-<p>Where required, Contact Imminent will use Google's User Messaging Platform or related Google privacy controls to present consent or privacy choices before advertising data is processed in a manner requiring consent. Available advertising choices may vary by region and applicable law.</p>
-<p>Inactive Studios does not sell player personal information. Advertising providers process information according to their own applicable privacy terms and the configuration selected by Inactive Studios.</p>
+<p>Contact Imminent uses Google AdMob and the Google Mobile Ads SDK to provide advertising.</p>
+<p>According to Google's documentation for the Google Mobile Ads SDK, the SDK automatically collects and shares certain information for advertising, analytics, and fraud-prevention purposes. This information includes the device's IP address, which may be used to estimate general location; user-product interactions such as app launches, taps, and video views; diagnostic and performance information such as app launch time, hang rate, and energy usage; and device or account identifiers, including the Android Advertising ID, App Set ID, and, where applicable, other identifiers related to signed-in accounts on the device.</p>
+<p>Google states that information collected by the Google Mobile Ads SDK is encrypted in transit using Transport Layer Security (TLS). The availability, collection, or transmission of some identifiers, including the Android Advertising ID, may depend on device settings, application configuration, privacy choices, applicable requirements, and advertising configuration.</p>
+<p>Inactive Studios uses advertising services to monetize Contact Imminent. Information processed through the advertising SDK may also be used by Google for advertising, analytics, and fraud-prevention purposes in accordance with Google's applicable terms, privacy policies, service configuration, and the user's available privacy choices.</p>
+<p>Inactive Studios does not sell player personal information.</p>
+</section>
+
+<section class="policy-section">
+<h2>Advertising consent and privacy choices</h2>
+<p>Contact Imminent uses Google's User Messaging Platform (UMP) SDK to manage applicable advertising consent and privacy choices.</p>
+<p>The application requests updated consent information through UMP and, when required for a user or region, presents the applicable privacy or consent message before requesting advertising in accordance with the resulting consent status and advertising configuration.</p>
+<p>Where required, Contact Imminent provides access to applicable privacy options so users can review or change available privacy choices, including withdrawing consent where required by applicable law.</p>
+<p>The specific choices and messages presented may vary according to the user's region, applicable legal requirements, Google's configured privacy messages, device settings, and advertising configuration.</p>
 </section>
 
 <section class="policy-section">
 <h2>Crash reporting and diagnostics</h2>
-<p>The planned Google Play release of Contact Imminent uses Firebase Crashlytics, provided by Google, to help identify crashes, application-not-responding events, and software stability problems.</p>
-<p>Crashlytics and supporting Firebase services may process diagnostic and technical information such as crash stack traces, application state associated with a crash, app and app-version information, device model and operating-system information, session information, and installation identifiers. This information is used to diagnose defects, improve stability, and maintain the game.</p>
-<p>Contact Imminent does not currently use Firebase Analytics as a separate player-behavior analytics service. If analytics functionality is introduced, this policy and applicable storefront disclosures will be reviewed and updated.</p>
+<p>Contact Imminent uses Firebase Crashlytics, provided by Google, to identify crashes, application-not-responding events, and software-stability problems.</p>
+<p>According to Google's Firebase documentation, Firebase Crashlytics automatically collects crash stack traces, relevant application state, relevant device metadata, and a Crashlytics installation UUID. Information associated with crash reporting may include crash timestamps, application identifier and version information, operating-system information, device model and hardware characteristics, and identifiers used to associate crash and session information.</p>
+<p>Firebase Crashlytics has dependencies on Firebase Installations and Firebase Sessions. Firebase Installations generates and collects a Firebase Installation ID associated with an installation of the application and Firebase user-agent information. Firebase Sessions collects application metadata, device metadata, and application/session metrics used to provide crash and application-quality metrics.</p>
+<p>Contact Imminent uses this information to identify defects, investigate crashes and application stability, and improve and maintain the game.</p>
+<p>Inactive Studios does not use an Inactive Studios player-account identifier with Crashlytics because Contact Imminent does not provide an Inactive Studios player account. The production configuration is not intended to attach names, email addresses, or other Inactive Studios account information to crash reports.</p>
+<p>Contact Imminent does not use Firebase Analytics as a separate player-behavior analytics service. If separate analytics functionality is introduced in a future release, this policy and applicable storefront disclosures will be reviewed and updated.</p>
 </section>
 
 <section class="policy-section">
 <h2>Purchases and Google Play services</h2>
 <p>Contact Imminent may offer digital products or other in-app purchases through Google Play. Payment credentials and payment processing are handled by Google Play rather than directly by Inactive Studios. Inactive Studios may receive transaction-related information necessary to provide purchased content, verify transactions, maintain business records, provide support, prevent fraud, or comply with legal obligations.</p>
-<p>Google Play and other platform services may independently process information according to their own privacy policies and terms.</p>
+<p>Google Play and other platform services may independently process information according to their own applicable privacy policies and terms.</p>
 </section>
 
 <section class="policy-section">
@@ -82,41 +95,44 @@
 <section class="policy-section">
 <h2>Permissions and sensitive information</h2>
 <p>Contact Imminent is not designed to require access to a user's contacts, precise location, health information, SMS messages, call logs, microphone, or camera for its core gameplay. Inactive Studios seeks to avoid requesting sensitive Android permissions that are unnecessary to the game's functionality.</p>
-<p>If a future feature requires access to additional personal or sensitive information, the feature, permission request, applicable in-app disclosure or consent flow, this policy, and storefront disclosures will be reviewed before release.</p>
+<p>If a future feature requires access to additional personal or sensitive information, the feature, permission request, applicable in-app disclosure or consent flow, this policy, and applicable storefront disclosures will be reviewed before release.</p>
 </section>
 
 <section class="policy-section">
 <h2>How information is shared</h2>
-<p>Information may be processed by service providers used to operate and support Contact Imminent, including Google services associated with advertising, crash diagnostics, application distribution, and payment processing. Information may also be disclosed when reasonably necessary to comply with applicable law, legal process, protect users or services, investigate fraud or abuse, or protect the rights and safety of Inactive Studios or others.</p>
-<p>Inactive Studios does not sell personal and sensitive user data.</p>
+<p>Information may be processed by service providers used to operate and support Contact Imminent. These include Google services associated with advertising and advertising consent, crash diagnostics and application-quality monitoring, application distribution, and payment processing. The information processed and the purposes of processing vary by service as described elsewhere in this policy and in the applicable provider documentation and privacy terms.</p>
+<p>Information may also be disclosed when reasonably necessary to comply with applicable law or legal process; protect users, services, rights, property, or safety; or investigate fraud, abuse, or security incidents.</p>
+<p>Inactive Studios does not sell personal or sensitive user data.</p>
 </section>
 
 <section class="policy-section">
 <h2>Security</h2>
-<p>Inactive Studios uses reasonable technical and organizational measures appropriate to the information it handles. Network communications under our control that contain personal or sensitive information are intended to use encrypted transport such as HTTPS. Third-party services used by Contact Imminent maintain their own security practices and infrastructure.</p>
+<p>Inactive Studios uses reasonable technical and organizational measures appropriate to the information it handles. Network communications under our control that contain personal or sensitive information are intended to use encrypted transport such as HTTPS. Google states that information collected by the Google Mobile Ads SDK is encrypted in transit using TLS, and Firebase services use encrypted transport for data in transit as described in Google's applicable documentation. Third-party services used by Contact Imminent maintain their own security practices and infrastructure.</p>
 </section>
 
 <section class="policy-section">
 <h2>Data retention and deletion</h2>
-<p>Inactive Studios retains information only for as long as reasonably necessary for the purpose for which it was collected, including support, diagnostics, security, transaction records, business operations, and applicable legal obligations.</p>
+<p>Inactive Studios retains information under its control only for as long as reasonably necessary for the purpose for which it was collected, including support, diagnostics, security, transaction records, business operations, dispute resolution, and applicable legal obligations. Information processed by third-party providers may be retained according to those providers' applicable service-specific retention practices and legal obligations.</p>
 <p>Local gameplay data can generally be removed by clearing the application's local data or uninstalling the application, subject to operating-system or platform backup behavior.</p>
-<p>Contact Imminent does not currently provide an Inactive Studios player account or studio-hosted cloud-save profile. If account creation is introduced, Inactive Studios will provide applicable account-deletion mechanisms and update this policy accordingly.</p>
+<p>Contact Imminent does not provide an Inactive Studios player account or studio-hosted cloud-save profile. If account creation is introduced in a future release, Inactive Studios will implement applicable account-deletion mechanisms and update this policy and applicable storefront disclosures accordingly.</p>
 <p>Privacy or deletion requests concerning information held directly by Inactive Studios may be submitted to <a href="mailto:privacy@inactivestudios.com">privacy@inactivestudios.com</a>. Requests concerning information controlled independently by third-party providers may also be subject to those providers' privacy controls and retention requirements.</p>
 </section>
 
 <section class="policy-section">
 <h2>Children's privacy</h2>
-<p>Contact Imminent is not designed or directed specifically to children. The intended audience and advertising configuration for each storefront release will be established through the applicable platform's age-rating and audience processes. Inactive Studios does not knowingly use the game to solicit personal information from children.</p>
+<p>Contact Imminent is not designed or directed specifically to children. The intended audience and advertising configuration for each storefront release are established through the applicable platform's age-rating and audience processes. Inactive Studios does not knowingly use the game to solicit personal information from children.</p>
 </section>
 
 <section class="policy-section">
 <h2>International users</h2>
-<p>Contact Imminent may be available in multiple jurisdictions. Data may be processed in countries other than the user's country of residence by Inactive Studios or its service providers. Where applicable, we and our service providers are responsible for handling information in accordance with applicable privacy and data-protection requirements.</p>
+<p>Contact Imminent may be available in multiple jurisdictions. Information may be processed in countries other than the user's country of residence by Inactive Studios or its service providers. Where applicable, Inactive Studios and its service providers are responsible for handling information in accordance with applicable privacy and data-protection requirements.</p>
 </section>
 
 <section class="policy-section">
 <h2>Third-party services</h2>
-<p>The Google Play release may use services provided by Google, including Google Play, Google AdMob and the Google Mobile Ads SDK, Google's User Messaging Platform, Firebase Crashlytics, Firebase Installations, and Firebase Sessions. The exact services present in a released build are reviewed as part of Inactive Studios' release process, and this policy and storefront disclosures are maintained to reflect the released configuration.</p>
+<p>The Google Play release of Contact Imminent uses Google services including Google Play, Google AdMob and the Google Mobile Ads SDK, Google's User Messaging Platform, Firebase Crashlytics, Firebase Installations, and Firebase Sessions.</p>
+<p>These services may process information on behalf of Inactive Studios or independently under Google's applicable terms, privacy policies, service configurations, and legal obligations. Their data practices may differ according to the service, application configuration, device settings, privacy choices, region, and applicable law.</p>
+<p>Inactive Studios reviews the third-party SDKs and services included in each production release and maintains this Privacy Policy and applicable storefront disclosures to reflect the released configuration.</p>
 </section>
 
 <section class="policy-section">
